@@ -2,44 +2,31 @@
 
 
 # T.O.S
-#### This repository/project is under MIT licence, if you are using it please leave watermark to the organisation. (github.com/zeenode)
+#### Этот репозиторий / проект находится под лицензией MIT, если вы его используете, пожалуйста, оставьте водяной знак организации. (github.com/zeenode)
 
-## Selfbot Portfolio: 
+## Портфолио селфбоат 
 ###### https://zeenode.github.io/selfbot-site/
 
-### About the project
+### Об этом проекте
 
-- This project is mainly made for people who want to understand discord.py lib for python so that they can develop their skills in using it. Discord prohibits Selfbots so if you want to use this you will use it at your own risk.
-
-### Changelog 2/26/2022/
-###### Discord disabled normal users (non bots) from sending embed texts, so all the commands are re-done to not have embed.
-* Fixed some deprecated error messages
-* Fixed some minor bugs
-* Fixed missing some import requirements
-* Added servericon aliases to guildicon command
-* Fixed misspelling in help command at section text_encoding [encode_sha521 >> encode_sha512]
-* Added zoki command (it doesnt make any sense, but today on this day that the change is made is our friend zoki "eqxm"'s birthday.
-* Added missing arguments listener to some of the commands such as $purge
-* Removed broken commands
-* 50+ commands updated.
+- Этот проект в основном создан для людей, которые хотят понять discord.py, чтобы они могли развивать свои навыки программирования в ее использовании. Discord запрещает селфботы, поэтому, если вы хотите использовать это, вы будете использовать это на свой страх и риск.
 
 # WARNING!!!
 
-- You agree not to (and not to attempt to) (i) use the Service for any use or purpose other than as expressly permitted by these Terms;(ii) copy, adapt, modify, prepare derivative works based upon, distribute, license, sell, transfer, publicly display, publicly perform, transmit, stream, broadcast, attempt to discover any source code, reverse engineer, decompile, disassemble, or otherwise exploit the Service or any portion of the Service, except as expressly permitted in these Terms; or (iii) use data mining, robots, spiders, or similar data gathering and extraction tools on the Service.
+- Вы соглашаетесь не (и не пытаться) использовать Сервис для любых целей, кроме тех, которые прямо разрешены настоящими Условиями; копировать, адаптировать, модифицировать, готовить производные работы на основе, распространять, лицензировать, продавать, передавать, публично демонстрировать, публично исполнять, передавать, транслировать в потоковом режиме, пытаться обнаружить любой исходный код, реконструировать, декомпилировать, дизассемблировать или иным образом использовать Сервис или любую часть Сервиса, за исключением случаев, прямо разрешенных настоящими Условиями; или использовать интеллектуальный анализ данных, роботов, пауков или аналогичные инструменты сбора и извлечения данных на службе.
 
-- This in short means that Discord prohibits any form of bots and automation, which means that selfbot is prohibited by ToS. This is for educational purposes only, if you want to use it use it at your own risk. We do not take any responsibility for you.
-
+- - Вкратце это означает, что Discord запрещает любую форму ботов и автоматизации, что означает, что selfbot запрещен ToS. Это только в образовательных целях, если вы хотите его использовать, используйте на свой страх и риск. Мы не несем за вас никакой ответственности.
 
 
 ## How to install and use Zeenode Discord Self-Bot?
 - Windows:
-    1. Download python, preferably 3.7.0. You can do that by heading to this link, https://www.python.org/downloads/release/python-370/. 
-    2. Git clone the repository. You can do this by typing in your command prompt "git clone https://github.com/zeenode/selfbot" (You will need git which you can download from https://git-scm.com/download/win)
-    3. Run install.bat then launch.bat and input your token. You will need to do this everytime you start the selfbot. Alternatively you can put your token in the *config.py* file.
+    1. Скачайте python, предпочтительно версию 3.7.0. Вот ссылка на скачивание питона - https://www.python.org/downloads/release/python-370/. 
+    2. Git клонирует репозитории. Вы можете склонировать репозиторий, введя в командной строке "git clone https://github.com/zeenode-ru/selfbot-on-ru" (Вам понадобится git, который вы можете скачать с https://git-scm.com/download/win)
+    3. Запустите install.bat, затем запустите.bat и введите свой токен. Вам нужно будет делать это каждый раз, когда вы запускаете селфбота. Что бы каждый раз не вставлять токен в CMD вы можете вставить свой токен в "config.py".
 - GNU/Linux:
-    1. Download python, preferably 3.7.0. You can do that by heading to this link, https://www.python.org/downloads/release/python-370/ and installing the gunzipped source tarball. (Note you will need to build python from source. Alternatively you can download it from the terminal by using your distro's package manager, although it will be the newest version, not 3.7.0)
-    2. Git clone the repository. You can do this by typing in your terminal "git clone https://github.com/zeenode/selfbot" (You will need git for this which you can download from the terminal by using your distro's package manager.)
-    3. Run the python file and input your token. You will need to do this everytime you start the selfbot. Alternatively you can put your token in the *config.py* file.
+    1. Скачайте python, предпочтительно версию 3.7.0. Вот ссылка на скачивание питона - https://www.python.org/downloads/release/python-370 / и установите исходный файл tarball. (Обратите внимание, что вам нужно будет создать python из исходного кода. В качестве альтернативы вы можете загрузить его с терминала, используя менеджер пакетов вашего дистрибутива, хотя это будет самая новая версия, а не 3.7.0)
+    2. Git клонирует репозитории. Вы можете склонировать наш репозиторий, введя в своем терминале "git clone https://github.com/zeenode-ru/selfbot-on-ru" (Для этого вам понадобится git, который вы можете загрузить с терминала, используя менеджер пакетов вашего дистрибутива.)
+    3. Запустите файл launch.py и введите свой токен. Вам нужно будет делать это каждый раз, когда вы запускаете selfbot. Что бы каждый раз не вставлять токен в CMD вы можете вставить свой токен в "config.py".
     
 
 
